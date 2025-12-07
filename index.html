@@ -11,16 +11,14 @@
     color: #333;
     margin: 0;
     padding: 0;
-  }
-  body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(45deg, #ff0000 10%, #ff4d4d 20%, #4d4dff 70%, #0000ff 80%);
-  background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
+
 }
 
-
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
 
   .container {
     max-width: 600px;
